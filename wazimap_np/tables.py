@@ -287,3 +287,21 @@ SimpleTable(
     dataset='Annual Report of the Department of Health Services',
     year='2014-2015'
 )
+
+SimpleTable(
+    id='development_assistance_amount',
+    universe='Development Assistance Amount',
+    total_column=None,
+    description='Amount of Development Assistance in US Dollars',
+    dataset='Development Cooperation Report, Mininstry of Finance',
+    year='2014-2015'
+)
+
+SimpleTable(
+    id='development_assistance_projects',
+    universe='Development Assistance Projects',
+    total_column=None,
+    description='Development Assistance Projects',
+    dataset='Development Cooperation Report, Mininstry of Finance',
+    year='2014-2015'
+)
